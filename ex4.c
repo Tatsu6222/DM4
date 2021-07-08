@@ -22,7 +22,7 @@ int main(){
   z = x + y;
   printf("Total value: %d\n",z);
   
-  if(z>7)printf("%s won!\n",str);
+  if(z>7) printf("%s won!\n",str);
   else print("%s lost.\n",str);
   
   return 0;
