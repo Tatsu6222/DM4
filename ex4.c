@@ -3,7 +3,12 @@
 
 int main(){
   int x=0,y=0,z;
-
+  
+  char str[8];
+  printf("What is your name?");
+  scanf("%s",str);
+  printf("Hello, %s\n",str);
+  
   printf("Rolling the dice...\n");
 
   while(1>=x|x>=6)x = rand();
